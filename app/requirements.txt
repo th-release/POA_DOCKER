@@ -1,0 +1,13 @@
+PyJWT==2.7.0
+ccxt==4.4.20
+dhooks==1.1.4
+fastapi==0.99.0
+uvicorn[standard]==0.22.0
+fire==0.5.0
+httpx==0.23.3
+loguru==0.7.0
+pocketbase==0.8.2
+pydantic[dotenv]==1.10.10
+devtools[pygments]==0.11.0
+orjson==3.9.1
+pendulum==2.1.2
