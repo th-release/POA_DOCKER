@@ -38,7 +38,7 @@ docker compose up -d
 ```
 docker compose logs
 ```
-<img width="638" alt="스크린샷 2024-10-30 오후 4 34 31" src="https://github.com/user-attachments/assets/468bdfe7-bd46-447e-bad8-e3a6d830107b">
+<img width="638" alt="스크린샷 2024-10-30 오후 4 34 31" src="https://github.com/user-attachments/assets/468bdfe7-bd46-447e-bad8-e3a6d830107b"><br/>
 ^ 위 사진 처럼 뜨면 정상 작동 중 (웹훅 등록 제대로 하셨으면 메세지도 갑니다)
 
 # 종료 방법
