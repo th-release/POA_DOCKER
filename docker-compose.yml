@@ -15,7 +15,7 @@ services:
       - pocketbase
     networks:
       - app-network
-    user: 1000:1000
+    user: root:root
 
   pocketbase:
     build:
