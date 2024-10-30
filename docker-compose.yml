@@ -1,0 +1,40 @@
+services:
+  poa:
+    build:
+      context: .
+      dockerfile: Dockerfile.poa
+    container_name: poa
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - ./app:/app
+    environment:
+      - TZ=Asia/Seoul
+    depends_on:
+      - pocketbase
+    networks:
+      - app-network
+    user: 1000:1000
+
+  pocketbase:
+    build:
+      context: .
+      dockerfile: Dockerfile.pocketbase
+    container_name: pocketbase
+    restart: always
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./app/pb_data:/pb_data
+    environment:
+      - TZ=Asia/Seoul
+      - PB_ADMIN_EMAIL=poa@admin.com
+      - PB_ADMIN_PASSWORD=poabot!@#$
+
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
