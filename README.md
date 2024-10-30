@@ -38,3 +38,6 @@ docker compose down
 # POA_DOCKER 관련 질문 및 연락
 Discord: `cth.release`\
 Instagram: <a href="https://instagram.com/cth.release">cth.release</a>
+
+### 잡다한 말.
+Repository의 Star와 <a href="https://github.com/th-release">cth.release</a> 팔로우는 작성자에게 힘이 됩니다.
