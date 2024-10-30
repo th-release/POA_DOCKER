@@ -19,7 +19,11 @@ jangdokang/POA - github: <a href="https://github.com/jangdokang/POA">바로가�
 
 
 # 설정
-* <a href="https://github.com/th-release/POA_DOCKER/blob/main/app/.env">env로 이동하기</a> 해당 파일로 POA 셋팅을 합니다.
+> <a href="https://github.com/th-release/POA_DOCKER/blob/main/app/.env">env로 이동하기</a> 해당 파일로 POA 셋팅을 합니다.
+
+> <a href="https://github.com/th-release/POA_DOCKER/blob/main/Dockerfile.pocketbase">cpu 아키텍처 설정</a>
+> 리눅스에서 uname -m을 커맨드로 넣어 aarch64가 뜬다면, 
+> pocketbase_0.16.6_linux_amd64.zip 부분을 pocketbase_0.16.6_linux_arm64.zip으로 바꿔주시면 됩니다!
 
 # 초기화 방법
 이전에 있던 POA 데이터를 초기화하는 방법은 <a href="https://github.com/th-release/POA_DOCKER/tree/main/app/pb_data">pb_data</a>에 있는 모든 파일을 삭제 후, <a href="https://github.com/th-release/POA_DOCKER/tree/main/reset_pb">reset_pb</a>에 있는 data.db를 넣어주시고, `docker compose down; docker compose up -d` 명령어를 실행해주시면 됩니다!
