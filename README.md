@@ -15,7 +15,7 @@
 
 jangdokang/POA - github: <a href="https://github.com/jangdokang/POA">바로가기</a>
 
-- POA_DOCKER은 PoA 개발자 jangdokang님에게 허락을 맡고 올린 Repository 입니다. ~~(저작권 문제 없음)~~
+- POA_DOCKER은 PoA 개발자 jangdokang님에게 허락을 받고 올린 Repository 입니다. ~~(저작권 문제 없음)~~
 
 
 # 설정
